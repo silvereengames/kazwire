@@ -4,6 +4,7 @@
 	// import Showoff from '$lib/components/Showoff.svelte';
 	import Faq from '$lib/components/Faq.svelte';
 	import Partners from '$lib/components/Partners.svelte';
+	import Chatbox from '$lib/components/Chatbox.svelte';
 
 	// import FinalGrade from '$lib/components/FinalGrade.svelte';
 	import SchoolRescue from '$lib/components/SchoolRescue.svelte';
@@ -349,3 +350,5 @@
 		</grid>
 	</div>
 {/if}
+
+<Chatbox />
